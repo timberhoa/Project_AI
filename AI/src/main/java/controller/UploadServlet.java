@@ -46,7 +46,7 @@ public class UploadServlet extends HttpServlet {
         //Xử lý file ....
         
         
-        //Xét lại fileName và filetPath = thông tin của file sau khi xử lý để có thể tải về
+        //Set lại fileName và filetPath = thông tin của file sau khi xử lý để có thể tải về
         
         // Lưu đường dẫn ảnh đã tải lên vào thuộc tính session
         if(request.getSession().getAttribute("filePath") != null) {
